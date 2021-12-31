@@ -25,7 +25,7 @@ public class emprestimo {
             System.out.printf("%-10s%6s%.2f\n%.22s%8s%d", "VALOR EMPRESTADO",":", v, "N° DE PARCELAS",":", p);
             v = ((v * 2.5d / 100) * p) + v;
             valorPar = v / p;
-            System.out.printf("%s%4s%.2f", "\nVALOR DAS PARCELAS", ":", valorPar);
+            System.out.printf("%s%4s%.2f ", "\nVALOR DAS PARCELAS", ":", valorPar);
             System.out.printf("%s%11s%.2f", "\nVALOR FINAL", ":", v);
         } else if (p > 8){
             System.out.printf("%-10s%6s%.2f\n%.22s%8s%d", "VALOR EMPRESTADO",":", v, "N° DE PARCELAS",":", p);
